@@ -14,7 +14,7 @@ function Video() {
     useEffect(() => {
       setTimeout(() => {
         setFinishTimer(true)
-      }, 1080000)
+      },663000)
     }, [])
     return (
         <>
@@ -25,12 +25,13 @@ function Video() {
             </Container>
             <VideoPlayer></VideoPlayer>
             {
-                finishTimer &&
+                finishTimer ?
                 <div style={{marginTop: "10px"}}>
-                    <LigthButton><a href="">SOMENTE HOJE POR R$29,90 <span>Clique aqui para receber seu acesso</span></a></LigthButton>
+                    <LigthButton><a style={{textDecoration: 'none', color: '#FFFF'}} href="https://pepper.com.br/checkout/index.html?p=90296&o=103273">SOMENTE HOJE POR R$29,90 <span>Clique aqui para receber seu acesso</span></a></LigthButton>
                 </div>
+                :
+                <div className='description'><FaUnlock style={{color:"#FF0094"}}/> SEU ACESSO SERÁ LIBERADO NO FINAL DO VÍDEO </div>
             }
-            <div className='description'><FaUnlock style={{color:"#FF0094"}}/> SEU ACESSO SERÁ LIBERADO NO FINAL DO VÍDEO </div>
             <div>
                 <div style={{ margin: "0 auto"}}><img style={{ width:"100px" }} src="https://meusvelhosricos.online/wp-content/uploads/2023/10/PROVA-EMISSORA.png"></img></div>
                 <div class="elementor-widget-container"><p><strong>ISSO FOI ASSUNTO NAS MAIORES EMISSORAS DE TELEVISÃO DO BRASIL !</strong></p></div>
@@ -38,6 +39,7 @@ function Video() {
 
             <h1 style={{ color: '#FF0094'}}>O QUE ELAS ESTÃO FALANDO...</h1>
             <SocialProve></SocialProve>
+            <div style={{ padding: '8px'}}>Copyright ©2023 – Todos os direitos reservados. Velho Rico.</div>
         </>
     )
 }

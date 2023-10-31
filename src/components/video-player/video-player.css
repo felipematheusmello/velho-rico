@@ -1,6 +1,8 @@
 video {
-    box-shadow: 2px 2px 25px 1px  rgba(7, 168, 204, 0.77);
+    box-shadow: 2px 2px 25px 1px #FF00AC;
     margin-top: 20px;
+    width: 100%;
+    height: auto;
 }
 
 .active-video {
@@ -77,3 +79,33 @@ video {
         opacity: 1 !important;
     }
 }
+
+  .play-button {
+    position: absolute;
+    background-color: #FF00AC;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 10px 15px;
+    cursor: pointer;
+    height: 50px;
+    width: 44px;
+    opacity: 0;
+    transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
+  }
+
+  .play-button:focus {
+    outline: none;
+  }
+
+  .play-button:hover {
+    opacity: 1
+  }
+
+  @-prefix-keyframes slide {
+    from {height: 0;}
+    to {height: 300px;}
+  }
