@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins:wght@700&display=swap');
+.App {
+  text-align: center;
+  min-height: 100vh;
+  color: #FFFFFF;
+  font-size: 15px;
+  font-family: "Poppins", Sans-serif;
+  background-image: linear-gradient(126deg, #000000 41%, #FF00AC 100%);
+}
+.text-container {
+  margin-top: 30px;
+  line-height: 36px;
+  font-size: 25px;
+}
+.price {
+  color: #0076dd;
+}
+
+.desconto {
+  width: 40rem;
+}
+
+.terms {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.text-footer-container {
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-family: 'Oswald', sans-serif;
+  margin-top: 10px;
+}
+
+.terms:hover {
+  opacity: 80%;
+}
+
+.copy {
+  font-size: 15px;
+}
+
+.buy:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.spacing-my {
+  margin: 10px 0 10px 0;
+}
+
+.spacing-top-x {
+  margin-top: 28px;
+}
+
+.description {
+  font-family: "Poppins", Sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  letter-spacing: -1.3px;
+  box-shadow: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 80px;
+  margin-top: 5px;
+}
+
+
+@media screen and (max-width: 480px) {
+  .desconto {
+    width: 12em;
+  }
+  .buy-button {
+    width: 85%;
+    height: 20%;
+    margin-top: 10px;
+  }
+  .image-social-prove {
+    width: 80% !important;
+    height: 80% !important;
+    border-radius: 10px;
+  }
+
+  .description {
+    font-size: 12px;
+    letter-spacing: normal;
+  }
+
+  .duracao {
+    font-size: 15px;
+    letter-spacing: 2px;
+  }
+}
+
+
+.responsive-img-container {
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: center;
+}
+
+.image-social-prove {
+  width:50rem;
+  height:100rem;
+  border-radius: 10px;
+}
+
+
+.unlock-icon {
+  color: #1d4bd5f0;
+  margin-right: 4px;
+}

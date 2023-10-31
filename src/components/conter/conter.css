@@ -1,0 +1,17 @@
+.counter {
+    font-size: 36px;
+    font-weight: bold;
+    animation: countAnimation 5s linear;
+    text-shadow: -11px 0px 18px rgba(108.07169079915789, 129.87998962402347, 103.05694828862731, 0);
+    width: fit-content;
+    border-radius: 25px;
+  }
+
+  @keyframes countAnimation {
+    from {
+      content: "0";
+    }
+    to {
+      content: "var(--targetNumber)";
+    }
+  }

@@ -1,0 +1,31 @@
+.titles-review {
+    font-size: 22px;
+    margin-top: 1rem;
+}
+
+.description-review {
+    font-size: 18px;
+}
+
+#choose {
+    font-size: 30px;
+}
+
+.logo-review {
+    width: 10rem;
+    margin-top: 2rem;
+}
+
+.header-container-review {
+    display: flex;
+    flex-flow: nowrap row;
+    justify-content: center;
+    align-items: center;
+}
+
+.pretendente-container {
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: center;
+    align-items: center;
+}

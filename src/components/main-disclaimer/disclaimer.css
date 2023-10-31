@@ -1,0 +1,28 @@
+.google {
+    width: 50rem;
+    margin-top: 10px;
+    bottom: -1rem;
+}
+
+.fonte-disclaimer {
+    font-size: 30px;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.sub-font-container {
+    text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+    .google {
+        width: 20rem;
+    }
+    .fonte-disclaimer {
+        font-size: 20px;
+    }
+}

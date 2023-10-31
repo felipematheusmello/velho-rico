@@ -1,0 +1,30 @@
+
+.ligthing-button {
+    font-size: 20px;
+    font-weight: 700;
+    text-shadow: -11px 0px 18px rgba(108.07169079915789, 129.87998962402347, 103.05694828862731, 0);
+    background-color: #FF00AC;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.ligthing-button:hover {
+    background-color: #f65bc2;
+  }
+
+.ligthing-button:active {
+    background-color: #ff04ab;
+}
+
+
+@media screen and (max-width: 480px) {
+    .ligthing-button {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+}

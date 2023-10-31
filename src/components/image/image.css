@@ -1,0 +1,13 @@
+.profile-image {
+    border-style: double;
+    border-width: 12px 12px 12px 12px;
+    border-color: #FF0094;
+}
+
+
+@media screen and (max-width: 480px) {
+    .profile-image {
+        width: 130px;
+    }
+
+}

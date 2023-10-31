@@ -1,0 +1,24 @@
+.questions-container {
+    display: flex;
+    flex-flow: nowrap column;
+    align-items: center;
+    columns: 1;
+}
+
+.answers {
+    display: flex;
+}
+
+.pretendente-description {
+    font-size: 18px;
+}
+
+@media screen and (max-width: 480px) {
+    h2 {
+        font-size: 18px;
+    }
+    .pretendente-description {
+        font-size: 12px;
+        text-align: left;
+    }
+}

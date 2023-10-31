@@ -1,0 +1,35 @@
+.chat-container {
+    display: flex;
+    width: 50%;
+    flex-flow: wrap column;
+    position: relative;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    padding: 10px;
+    box-shadow: 2px 2px 25px 1px  rgba(7, 168, 204, 0.77);
+
+}
+
+.container-messages {
+    margin-top: 5rem;
+    margin-bottom: 10px;
+    display: flex;
+    flex-flow: nowrap row;
+    justify-content: center;
+    align-items: center;
+}
+
+.response {
+    margin-left: 30px;
+    border-left: 1px dotted #cbd5e1;
+    padding-left: 10px;
+}
+
+@media screen and (max-width: 480px) {
+    .chat-container {
+        width: 80%;
+    }
+    .container-messages {
+        margin-top: 30px;
+    }
+  }
