@@ -14,7 +14,7 @@ function Video() {
     useEffect(() => {
       setTimeout(() => {
         setFinishTimer(true)
-      },663000)
+      },660000)
     }, [])
     return (
         <>
